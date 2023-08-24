@@ -14,7 +14,7 @@ export const Overlay = styled.div`
 `;
 
 export const ModalBox = styled.div`
-  position: relative; /* Add this line */
+  position: relative;
   max-width: calc(100vw - 48px);
   max-height: calc(100vh - 24px);
   background-color: #fff;

@@ -2,6 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Modal from 'react-modal'; 
 import {  Overlay, ModalImg, ModalBoxHover } from './Modal.styled'; 
+
+
+Modal.setAppElement('#root');
+
 export const ModalWindow = ({ onHandleClose, url, tags }) => {
   return (
     <Modal
