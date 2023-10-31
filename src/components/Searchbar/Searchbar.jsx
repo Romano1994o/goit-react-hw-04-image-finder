@@ -6,6 +6,7 @@ import {
   SearchButton,
   SearchInput
 } from './Searchbar.styled';
+
 import { CiSearch } from 'react-icons/ci';
 
 const iconStyles = {
